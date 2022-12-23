@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cake made by the handsome Styunlen</title>
+  <title>Lxy's Birthday cake</title>
   <style>
     @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
@@ -350,15 +350,17 @@
         })()
     
         // 创建一个URLSearchParams实例
-        const urlSearchParams = new URLSearchParams(window.location.search);
+        // const urlSearchParams = new URLSearchParams(window.location.search);
         // 把键值对列表转换为一个对象
-        const params = Object.fromEntries(urlSearchParams.entries());
-        console.log(params)
-        if(params.name) {
+        // const params = Object.fromEntries(urlSearchParams.entries());
+        // console.log(params)
+        /* if(params.name) {
             console.log(document.querySelector("body > div.text > h2"));
             document.querySelector("body > div.text > h2").textContent = params.name;
             document.querySelector("body > div.text").classList.remove("hidden");
-        }
+        } */
+        document.querySelector("body > div.text > h2").textContent = "LXY";
+        document.querySelector("body > div.text").classList.remove("hidden");
     }
 
   </script>
